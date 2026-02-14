@@ -1,157 +1,21 @@
 proxies:
-- name: 🇺🇸US²_1|2.1MB/s|GPT⁺|D+|X|Succeed
-  password: c357a728-1211-11f0-9a65-f23c9164ca5d
-  port: 443
-  server: cd2fd5f5-t9zts0-td5oia-1m49t.jp.oshuawei.com
-  tls: true
-  type: http
-  username: c357a728-1211-11f0-9a65-f23c9164ca5d
-- auth: 7dd10318-28fd-413f-81f0-cd0a286e4779
-  name: 🇺🇸US²_2|0.6MB/s|GPT⁺|X
-  password: 7dd10318-28fd-413f-81f0-cd0a286e4779
-  port: 2056
-  server: mg2.mangshe.xyz
-  skip-cert-verify: true
-  sni: mg2.mangshe.xyz
-  type: hysteria2
-  udp: true
-- alterId: 0
-  cipher: auto
-  country: 🇬🇧GB
-  h2-opts: {}
-  http-opts: {}
-  name: 🇯🇵JP²_1|1.3MB/s|GPT|GM|D+|X|History|[原生|机房]
-  network: ws
-  port: 12883
-  server: gtm1.ktmwan.net
-  servername: baidu.com
-  skip-cert-verify: true
-  type: vmess
-  uuid: 3ac9d436-f213-421d-9644-a94686ee9fba
-  ws-opts:
-    headers:
-      HOST: baidu.com
-    path: /
-- country: 🇭🇰HK
-  name: 🇭🇰HK²_1|0.6MB/s|D+|X|Succeed|[原生|住宅]
-  password: BxceQaOe
-  port: 443
-  server: 58.152.25.208
-  skip-cert-verify: true
-  sni: t.me/ripaojiedian
-  tls: true
-  type: trojan
-  udp: true
-- alterId: 2
-  cipher: auto
-  name: 🇺🇸US²_3|4.3MB/s|GPT|YT-CN|NF|X|History
+- client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  http-opts:
+    headers: {}
+    path:
+    - /
+  name: 🇵🇱PL²_1|0.6MB/s|0%|GPT⁺|X|History
   network: tcp
-  port: 30808
-  server: v8.hdacd.com
-  tls: false
-  type: vmess
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- alterId: 2
-  cipher: auto
-  country: 🇭🇰HK
-  h2-opts: {}
-  http-opts: {}
-  name: 🇭🇰HK²_2|0.8MB/s|X|Succeed|[原生|住宅]
-  network: ws
-  port: 80
-  server: f30bc1db-t9xz40-td5oia-1m49t.hkt.gotochinatown.net
-  servername: broadcastlv.chat.bilibili.com
-  skip-cert-verify: true
-  type: vmess
-  uuid: c357a728-1211-11f0-9a65-f23c9164ca5d
-  ws-opts:
-    headers:
-      HOST: broadcastlv.chat.bilibili.com
-    path: /
-- name: 🇹🇼TW²_1|1.7MB/s|GPT|GM|D+|X|History|[原生|住宅]
-  password: exaxgqkKkd0TAMrCxeonWg==
-  port: 1443
-  server: twmoon1-cdn-route.couldflare-cdn.com
-  skip-cert-verify: false
+  port: 443
+  reality-opts:
+    public-key: AYQOZFxjvHN-RIzKYEibwFiFsp03cdlWGdCmyFfuNVc
+    short-id: 4fa44664f6a566d3
+  server: 144.31.3.30
+  servername: poland.scroogethebest.com
   tls: true
-  type: http
-  username: mrwdfNTD8M79LCukCieldrqZWqs=
-- name: 🇳🇱NL²_1|0.7MB/s|GPT|X|History|[广播|住宅拨号]
-  network: ws
-  port: 80
-  server: 104.18.32.47
-  tls: false
   type: vless
   udp: true
-  uuid: e31085f9-7f55-4a7d-b00e-ce94149477cb
-  ws-opts:
-    headers:
-      Host: PrICKLy-AdverTisEMEnt6OaD5Z64MK.onEEaT.cO.
-    path: /?ed
-- country: 🇺🇸US
-  name: 🇺🇸US²_4|2.6MB/s|22%|GPT⁺|GM|YT-CN|TK|D+|X|History|[原生|商宽]
-  password: 7dd10318-28fd-413f-81f0-cd0a286e4779
-  port: 2056
-  server: mg5.mangshe.xyz
-  skip-cert-verify: true
-  sni: mg5.mangshe.xyz
-  type: hysteria2
-  udp: true
-- alterId: 0
-  cipher: auto
-  country: 🇬🇧GB
-  h2-opts: {}
-  http-opts: {}
-  name: 🇯🇵JP²_2|1.3MB/s|0%|GM|YT|X|Succeed|[原生|机房]
-  network: ws
-  port: 12883
-  server: gtm1.ktmwan.net
-  servername: baidu.com
-  skip-cert-verify: true
-  type: vmess
-  uuid: 3ac9d436-f213-421d-9644-a94686ee9fba
-- alterId: 0.0
-  cipher: auto
-  name: 🇯🇵JP²_3|1.2MB/s|0%|GPT|YT|D+|X|Succeed|[原生|机房]
-  network: ws
-  port: 12883
-  server: gtm1.ktmwan.net
-  servername: baidu.com
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 3ac9d436-f213-421d-9644-a94686ee9fba
-  ws-opts:
-    headers:
-      Host: gtm1.ktmwan.net
-    path: /
-  xudp: true
-- alterId: 0
-  cipher: auto
-  h2-opts: {}
-  http-opts: {}
-  name: 🇩🇪DE²_1|0.6MB/s|X|History
-  network: ws
-  port: 8443
-  server: dll.avaaaal.ir
-  servername: cdge.avaaaal.ir
-  tls: true
-  type: vmess
-  uuid: 725f5fcd-721d-40a0-ba6b-3c7477633110
-  ws-opts:
-    headers:
-      host: cdge.avaaaal.ir
-    path: /
-- alterId: 0.0
-  cipher: auto
-  name: 🇺🇸US²_5|1.1MB/s|5%|GPT⁺|NF|D+|X
-  network: tcp
-  port: 31350
-  server: c86s3.portablesubmarines.com
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 5f7e4a08-757a-48fa-8ed8-38599c684851
+  uuid: ccedb1b1-35f3-46d1-a85a-c699eef5f3e1
   xudp: true
